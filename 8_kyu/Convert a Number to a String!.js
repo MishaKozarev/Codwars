@@ -7,4 +7,4 @@
 // 999  --> "999"
 // -100 --> "-100"
 
-let numberToString = (num)  => num.toString()
+const numberToString = (num)  => num.toString()

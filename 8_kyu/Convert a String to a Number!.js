@@ -11,4 +11,4 @@
 // "1405" --> 1405
 // "-7" --> -7
 
-let stringToNumber = (str) => Number(str)
+const stringToNumber = (str) => Number(str)

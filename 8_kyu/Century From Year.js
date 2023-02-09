@@ -10,4 +10,4 @@
 // 1601 --> 17
 // 2000 --> 20
 
-let century = (year) => Math.ceil(year/100)
+const century = (year) => Math.ceil(year/100)
