@@ -17,13 +17,12 @@
 // Explanation:
 // The minimum sum obtained from summing each two integers product ,  9*0 + 8*2 +7*4 +6*5 = 74
 
-// Minimize Sum Of Array (Array Series #1)
 
 function minSum(arr) {
-    arr = arr.sort((a, b) => a - b);
-    let result = 0;
-    for(let i = 0; i < arr.length / 2; i++){
-      result += arr[i] * arr[arr.length - (1 + i)]
-    }
-    return result;
+  arr = arr.sort((a, b) => a - b);
+  let result = 0;
+  for(let i = 0; i < arr.length / 2; i++){
+    result += arr[i] * arr[arr.length - (1 + i)]
   }
+  return result;
+}
