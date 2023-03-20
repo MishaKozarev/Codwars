@@ -21,5 +21,5 @@ function getParticipants(handshakes){
     let result = (1 + Math.sqrt(1 + 8 * handshakes))/2
     return Math.ceil(result)
     }
-  }
+}
 
